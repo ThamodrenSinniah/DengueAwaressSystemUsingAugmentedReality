@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="A rash is an area of irritated or swollen skin. Many rashes are itchy, red, painful, and irritated. Some rashes can also lead to blisters or patches of raw skin."
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:text="Rashes can be very discomforting and continuous scratching will sometimes cause it to bleed, furthering the risk if infections."
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="40dp"
+            android:layout_gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rashesimage" />
+        </androidx.cardview.widget.CardView>
+        <TextView
+
+            android:layout_marginTop="6dp"
+            android:text="It is advised to now touch the infected area until treated. Touching the irritated spot will increase the chance of infections and causes more rash spots on the body"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

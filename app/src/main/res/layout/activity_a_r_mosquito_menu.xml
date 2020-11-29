@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ARMosquitoMenu"
+    >
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/background"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Aedes Mosquito"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                />
+
+            <TextView
+                android:id="@+id/txtdashboard"
+                android:text="The infamous Aedes Mosquito"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_below="@+id/txtdashboard"
+                android:layout_marginTop="6dp"
+                android:text="This is a small, dark mosquito with white markings on the legs. Female mosquitoes are usually larger than males"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="180dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="40dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/aedesmosquito"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_marginTop="6dp"
+                android:text="Although these mosquitoes are easy to identify, they can be very small to spot especially during the evening"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:text="Check out the how would an Aedes Mosquito look like up close"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/viewARmosquito"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundbutton"
+                android:text="Click here to see an Aedes Mosquito"
+                android:textColor="#757575" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

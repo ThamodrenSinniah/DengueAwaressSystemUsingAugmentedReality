@@ -1,0 +1,64 @@
+{
+  materials: [
+    {
+      name: '04 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Butterfly a 32bit',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Butterfly_3DModel.FBX',
+    name: 'Butterfly_3DModel',
+    recenter: 'root',
+    scale: 10
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Butterfly_3DModel.fbm\\Butterfly a 32bit.png',
+      name: 'Butterfly a 32bit',
+      pipeline_name: 'Butterfly_3DModel.fbm\\Butterfly a 32bit.png',
+    },
+  ],
+  version: '0.54:2',
+}

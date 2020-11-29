@@ -1,0 +1,150 @@
+{
+  materials: [
+    {
+      name: '01 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'MOSQTCUE',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '03 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'MOSQBCUL',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '02 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'MOSQBALA',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/MOSQUITO_3DMODELFORGAME.FBX',
+    name: 'MOSQUITO_3DMODELFORGAME',
+    recenter: 'root',
+    scale:8
+  },
+  samplers: [
+    {
+      file: 'sampledata\\MOSQUITO_3DMODELFORGAME.fbm\\MOSQTCUE.jpg',
+      name: 'MOSQTCUE',
+      pipeline_name: 'MOSQUITO_3DMODELFORGAME.fbm\\MOSQTCUE.JPG',
+    },
+    {
+      file: 'sampledata\\MOSQUITO_3DMODELFORGAME.fbm\\MOSQBALA.jpg',
+      name: 'MOSQBALA',
+      pipeline_name: 'MOSQUITO_3DMODELFORGAME.fbm\\MOSQBALA.JPG',
+    },
+    {
+      file: 'sampledata\\MOSQUITO_3DMODELFORGAME.fbm\\MOSQBCUL.jpg',
+      name: 'MOSQBCUL',
+      pipeline_name: 'MOSQUITO_3DMODELFORGAME.fbm\\MOSQBCUL.JPG',
+    },
+  ],
+  version: '0.54:2',
+}
